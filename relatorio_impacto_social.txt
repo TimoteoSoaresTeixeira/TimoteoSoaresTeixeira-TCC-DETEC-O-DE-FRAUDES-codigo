@@ -1,0 +1,20 @@
+========================================================
+RELATÓRIO DE EXPERIMENTO - REDE NEURAL (LIMIAR RÍGIDO)
+========================================================
+
+Tempo de Treinamento: 43.08 segundos
+Métrica AUC-PR: 0.5624
+Métrica F1-Score: 0.5720
+
+--------------------------------------------------------
+DETALHAMENTO DO IMPACTO SOCIAL E MATRIZ DE CONFUSÃO
+--------------------------------------------------------
+-> Transações Legítimas Aprovadas: 19331
+-> Fraudes que escaparam (Falsos Negativos): 244
+
+-> FRAUDADORES INTERCEPTADOS (Verdadeiros Positivos): 268
+-> CLIENTES INOCENTES BLOQUEADOS (Falsos Positivos): 157
+
+CONCLUSÃO DO CUSTO SOCIAL:
+Para interceptar 268 fraudes usando uma malha fina rígida,
+o sistema penalizou erroneamente 157 clientes legítimos.
